@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: AlexAxthelm/actions-test@v1
+      uses: AlexAxthelm/actions-test
       with:
         who-to-greet: 'AlexAxthelm'
     # Use the output from the `hello` step
